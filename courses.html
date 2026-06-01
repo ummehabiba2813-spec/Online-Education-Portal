@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css">
+    <script src="courses.js"></script>
+    <title>Online Eduction</title>
+   
+</head>
+<body >
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i>Online Edu</i></div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teacherRegistrationForm.html">Teacher Enrollment</a></li>
+               
+                <li><a href="teachers.html">Teacher</a></li>
+              
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="btn">
+                <button id="btn1" type="button"  ><a href="login.html">login</a></button>
+                <button  id="btn1" type="button"><a href="signup.html">signup</a></button>
+            </div>
+            <!-- <div class="search-bar">
+                <input type="text" placeholder="Search courses...">
+                <button type="button">Search</button>
+            </div> -->
+        </nav>
+    </header>
+    <div class="container">
+        <h1 align="center"><i>Our Courses</i></h1>
+        <ul class="course-list">
+            <li><a  href="#" onclick="showPlaylist('html')">HTML</a></li>
+            <li><a href="#" onclick="showPlaylist('css')">CSS</a></li>
+            <li><a href="#" onclick="showPlaylist('javascript')">JavaScript</a></li>
+            <li><a href="#" onclick="showPlaylist('python')">Python</a></li>
+            <li><a href="#" onclick="showPlaylist('csharp')">C#</a></li>
+            <li><a href="#" onclick="showPlaylist('php')">PHP</a></li>
+            <li><a href="#" onclick="showPlaylist('datascience')">Data Science</a></li>
+            <li><a href="#" onclick="showPlaylist('dataanalysis')">Data Analysis</a></li>
+            <li><a href="#" onclick="showPlaylist('database')">Database</a></li>
+        </ul>
+
+        <div id="playlist" class="playlist">
+            <h2>Course Playlist</h2>
+            <ul id="playlist-content">
+                <!-- Playlist content will be dynamically inserted here -->
+            </ul>
+        </div>
+    </div>
+  
+
+   
+</body>
+</html>

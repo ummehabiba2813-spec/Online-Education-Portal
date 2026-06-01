@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.contact {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+.contact p {
+    margin: 0;
+}
+#para1{
+padding: 30px;
+text-align: center;
+
+}
+header {
+background: #494faa;
+color: #fff;
+padding: 1rem 0;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 1rem;
+}
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+}
+/* a{
+    color: white;
+    text-decoration: none;
+} */
+.nav-links {
+list-style: none;
+display: flex;
+}
+
+.nav-links li {
+margin: 0 1rem;
+
+}
+
+.nav-links a {
+color: #fff;
+text-decoration: none;
+font-size: 1rem;
+transition: color 0.3s;
+padding:10px;
+border-radius:5px;
+}
+
+.nav-links a:hover {
+background-color:  #ff6347;
+}
+#btn1{
+border: solid rgb(255, 255, 255) 2px;
+border-radius: 8px;
+padding: 10px;
+font-size: 20px;
+background-color:#494faa ;
+color: whitesmoke;
+
+}
+#btn1:hover{
+background-color: #ff6347;
+}

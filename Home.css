@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #494faa;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    padding:10px;
+    border-radius:5px;
+}
+
+.nav-links a:hover {
+    background-color:  #ff6347;
+}
+#btn1{
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:#494faa ;
+    color: whitesmoke;
+    
+}
+#btn1:hover{
+    background-color: #ff6347;
+}
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+/* .nav ul li a:hover {
+    background-color: #0bc3ba;  /* Hover effect */
+ */
+
+.search-bar button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #df8bdf;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-bar button:hover {
+    background: #ff6347; /* Tomato color */
+}
+
+.content {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    background: #6a6ad4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background: #ff6347; /* Tomato color */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature h2 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#para1{
+    padding: 30px;
+    text-align: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#p1{
+    color: blue;
+    text-decoration:underline;
+
+}
